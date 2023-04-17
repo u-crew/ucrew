@@ -27,3 +27,4 @@
 7. Introduce the vulns again.
 8. Keep a PR fix ready.
 9. Deploy to AWS eu-west-1 (Ireland). AWS for CSG account usage.
+
