@@ -1,7 +1,10 @@
 {
     "folders": [
         {
-            "path": "."
+            "path": "../juice-shop"
         }
-    ]
+    ],
+    "settings": {
+        "snyk.advanced.additionalParameters": "--all-projects"
+    }
 }
