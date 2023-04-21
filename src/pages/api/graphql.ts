@@ -7,6 +7,7 @@ import { gql } from 'graphql-tag';
 const PASSWORD: String = '123456';
 const SECRET: String = process.env.secret || 'WHY EXPOSE A SECRET 😢';
 const NODE_ENV: String = process.env.NODE_ENV;
+const PASSWD: String = "ABC123";
 
 const resolvers = {
   Query: {
