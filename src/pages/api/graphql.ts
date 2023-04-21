@@ -4,30 +4,17 @@ import { ApolloServer } from '@apollo/server';
 import { startServerAndCreateNextHandler } from '@as-integrations/next';
 import { gql } from 'graphql-tag';
 
-const PASSWORD: String = '123456';
-const SECRET: String = process.env.secret || 'WHY EXPOSE A SECRET 😢';
-const NODE_ENV: String = process.env.NODE_ENV;
+
 
 const resolvers = {
   Query: {
-    hello: () => 'world',
-    attemptHardCodedCreds: () => {
-        password : PASSWORD
-        secret: SECRET
-        node_env: NODE_ENV
-
-    }
+    hello: () => 'world'
   },
 };
 
 const typeDefs = gql`
   type Query {
-    hello: String,
-    attemptHardCodedCreds: {
-        password: String,
-        secret: String,
-        node_env: String
-    }
+    hello: String
   }
 `;
 
