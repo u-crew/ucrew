@@ -15,8 +15,7 @@
     "graphql": "^16.6.0",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "vm2": "^3.9.15"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@headlessui/react": "^1.7.14",
